@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TicketdropApplication<ticketdrop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.github.johanneshenz.ticketdrop.TicketdropApplication",
+            "projectName": "ticketdrop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
