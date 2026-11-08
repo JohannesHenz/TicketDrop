@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: ./frontend
+  backend:
+    build: ./backend
+  database:
+    image: postgres:latest
+   # environment:
+   #   POSTGRES_USER: value
+   #   POSTGRES_PASSWORD: value
+   #   POSTGRES_DB: value
